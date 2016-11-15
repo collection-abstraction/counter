@@ -1,6 +1,6 @@
 {
   "name": "aureooms-js-collections-counter",
-  "description": "Collections library for JavaScript",
+  "description": "Python's counter data structure for JavaScript",
   "version": "2.0.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
   "ava": {
@@ -23,13 +23,13 @@
     "url": "https://github.com/aureooms/js-collections-counter/issues"
   },
   "dependencies": {
-    "aureooms-js-collections": "^0.0.0",
-    "aureooms-js-collections-dict": "^0.0.0",
-    "aureooms-js-collections-heapq": "^0.0.0"
+    "aureooms-js-collections-dict": "^3.0.0",
+    "aureooms-js-compare": "^1.4.5",
+    "aureooms-js-error": "^3.0.0",
+    "aureooms-js-heapq": "^3.0.0"
   },
   "devDependencies": {
-    "aureooms-js-compare": "^1.4.5",
-    "aureooms-js-itertools": "^3.1.0"
+    "aureooms-js-itertools": "^3.1.0",
     "ava": "^0.16.0",
     "babel-cli": "^6.18.0",
     "babel-polyfill": "^6.16.0",
@@ -37,22 +37,16 @@
     "codeclimate-test-reporter": "^0.4.0",
     "coveralls": "^2.11.15",
     "esdoc": "^0.4.8",
-    "nyc": "^8.4.0"
+    "nyc": "^9.0.1"
   },
   "homepage": "http://aureooms.github.io/js-collections-counter/",
   "keywords": [
-    "bisect",
     "collection",
     "collections",
     "count",
     "counter",
-    "dict",
-    "hash",
-    "heapq",
     "javascript",
-    "js",
-    "list",
-    "map"
+    "js"
   ],
   "license": "AGPL-3.0",
   "main": "lib/index.js",

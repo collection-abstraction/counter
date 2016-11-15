@@ -1,5 +1,5 @@
-import { NotImplementedError } from 'aureooms-js-collections' ;
-import { nlargest } from 'aureooms-js-collections-heapq' ;
+import { NotImplementedError } from 'aureooms-js-error' ;
+import { nlargest } from 'aureooms-js-heapq' ;
 
 import counts from './counts' ;
 
