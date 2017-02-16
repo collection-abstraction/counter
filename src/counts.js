@@ -1,4 +1,4 @@
-import { increasing , attr } from 'aureooms-js-compare' ;
+import { increasing , attr } from '@aureooms/js-compare' ;
 
 const counts = attr( increasing , 1 ) ;
 

@@ -1,4 +1,4 @@
-import { Dict } from 'aureooms-js-collections-dict' ;
+import { Dict } from '@aureooms/js-collections-dict' ;
 
 import _Counter from './_Counter' ;
 
