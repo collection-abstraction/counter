@@ -1,5 +1,5 @@
 {
-  "name": "aureooms-js-collections-counter",
+  "name": "@aureooms/js-collections-counter",
   "description": "Python's counter data structure for JavaScript",
   "version": "3.0.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
@@ -23,13 +23,13 @@
     "url": "https://github.com/aureooms/js-collections-counter/issues"
   },
   "dependencies": {
-    "aureooms-js-collections-dict": "^3.0.0",
-    "aureooms-js-compare": "^1.4.5",
-    "aureooms-js-error": "^3.0.0",
-    "aureooms-js-heapq": "^3.0.0"
+    "@aureooms/js-collections-dict": "^3.0.0",
+    "@aureooms/js-compare": "^1.4.5",
+    "@aureooms/js-error": "^3.0.0",
+    "@aureooms/js-heapq": "^3.0.0"
   },
   "devDependencies": {
-    "aureooms-js-itertools": "^3.1.0",
+    "@aureooms/js-itertools": "^3.1.0",
     "ava": "^0.18.0",
     "babel-cli": "^6.18.0",
     "babel-polyfill": "^6.16.0",
