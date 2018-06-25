@@ -1,5 +1,5 @@
 
-export default function _counter ( Counter ) {
+export default function basecounter ( Counter ) {
 
 	const counter = function ( iterable = null ) {
 

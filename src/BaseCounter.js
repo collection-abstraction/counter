@@ -3,7 +3,7 @@ import { nlargest } from '@aureooms/js-heapq' ;
 
 import counts from './counts' ;
 
-export default function _Counter ( Map , Dict ) {
+export default function BaseCounter ( Map , Dict ) {
 
 	const Counter = function ( iterable ) {
 

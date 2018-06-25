@@ -1,7 +1,7 @@
 import Counter from './Counter' ;
 
-import _counter from './_counter' ;
+import basecounter from './basecounter' ;
 
-const counter = _counter( Counter ) ;
+const counter = basecounter( Counter ) ;
 
 export default counter ;

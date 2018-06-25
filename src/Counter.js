@@ -1,7 +1,7 @@
 import { Dict } from '@aureooms/js-collections-dict' ;
 
-import _Counter from './_Counter' ;
+import BaseCounter from './BaseCounter' ;
 
-const Counter = _Counter( Map , Dict ) ;
+const Counter = BaseCounter( Map , Dict ) ;
 
 export default Counter ;
