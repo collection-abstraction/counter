@@ -1,8 +1,9 @@
-[js-collections-counter](http://aureooms.github.io/js-collections-counter)
+[@aureooms/js-collections-counter](https://aureooms.github.io/js-collections-counter)
 ==
 
-Python's counter data structure for JavaScript. Parent is
-[js-collections](https://github.com/aureooms/js-collections).
+Python's counter data structure for JavaScript.
+See [docs](https://aureooms.github.io/js-collections-counter).
+Parent is [@aureooms/js-collections](https://github.com/aureooms/js-collections).
 
 ```js
 counter('abracadabra').get('a'); // 5
