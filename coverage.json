@@ -3,6 +3,13 @@
   "expectCount": 5,
   "actualCount": 0,
   "files": {
+    "src/BaseCounter.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    },
     "src/Counter.js": {
       "expectCount": 1,
       "actualCount": 0,
@@ -10,14 +17,7 @@
         5
       ]
     },
-    "src/_Counter.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        6
-      ]
-    },
-    "src/_counter.js": {
+    "src/basecounter.js": {
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
