@@ -35,10 +35,6 @@
   "devDependencies": {
     "@aureooms/js-itertools": "3.4.0",
     "ava": "3.8.1",
-    "babel-cli": "6.26.0",
-    "babel-polyfill": "6.26.0",
-    "babel-preset-env": "1.7.0",
-    "codeclimate-test-reporter": "0.5.1",
     "coveralls": "3.0.9",
     "esdoc": "1.1.0",
     "np": "3.1.0",
