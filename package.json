@@ -70,9 +70,9 @@
   "scripts": {
     "build": "rm -rf lib && babel src -d lib",
     "cover": "nyc --reporter=lcov npm test",
-    "prepublish": "npm run build",
     "release": "np",
     "test": "ava",
-    "esdoc": "esdoc"
+    "esdoc": "esdoc",
+    "prepare": "npm run build"
   }
 }
