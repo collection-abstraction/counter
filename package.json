@@ -27,7 +27,7 @@
     "url": "https://github.com/aureooms/js-collections-counter/issues"
   },
   "dependencies": {
-    "@aureooms/js-collections-dict": "^3.0.0",
+    "@aureooms/js-collections-dict": "^4.0.0",
     "@aureooms/js-compare": "^1.4.5",
     "@aureooms/js-error": "^4.0.0",
     "@aureooms/js-heapq": "^3.1.0"
