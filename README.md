@@ -1,8 +1,8 @@
-[@aureooms/js-collections-counter](https://aureooms.github.io/js-collections-counter)
+[@aureooms/js-collections-counter](https://make-github-pseudonymous-again.github.io/js-collections-counter)
 ==
 
 Python's counter data structure for JavaScript.
-See [docs](https://aureooms.github.io/js-collections-counter).
+See [docs](https://make-github-pseudonymous-again.github.io/js-collections-counter).
 Parent is [@aureooms/js-collections](https://github.com/aureooms/js-collections).
 
 ```js
@@ -21,7 +21,7 @@ counter('abracadabra').get('a'); // 5
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-collections-counter.svg)](https://codeclimate.com/github/aureooms/js-collections-counter/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-collections-counter/main.svg)](https://codecov.io/gh/aureooms/js-collections-counter)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-collections-counter.svg)](https://codeclimate.com/github/aureooms/js-collections-counter/trends/technical_debt)
-[![Documentation](http://aureooms.github.io/js-collections-counter//badge.svg)](http://aureooms.github.io/js-collections-counter//source.html)
+[![Documentation](http://make-github-pseudonymous-again.github.io/js-collections-counter//badge.svg)](http://make-github-pseudonymous-again.github.io/js-collections-counter//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-collections-counter)](https://bundlephobia.com/result?p=@aureooms/js-collections-counter)
 
 ## References
