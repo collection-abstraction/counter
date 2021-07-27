@@ -1,32 +1,32 @@
 window.esdocSearchIndex = [
   [
-    "@aureooms/js-collections-counter/src/basecounter.js~basecounter",
+    "@collection-abstraction/counter/src/basecounter.js~basecounter",
     "function/index.html#static-function-BaseCounter",
-    "<span>BaseCounter</span> <span class=\"search-result-import-path\">@aureooms/js-collections-counter/src/BaseCounter.js</span>",
+    "<span>BaseCounter</span> <span class=\"search-result-import-path\">@collection-abstraction/counter/src/BaseCounter.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-collections-counter/src/counter.js~counter",
+    "@collection-abstraction/counter/src/counter.js~counter",
     "variable/index.html#static-variable-Counter",
-    "<span>Counter</span> <span class=\"search-result-import-path\">@aureooms/js-collections-counter/src/Counter.js</span>",
+    "<span>Counter</span> <span class=\"search-result-import-path\">@collection-abstraction/counter/src/Counter.js</span>",
     "variable"
   ],
   [
-    "@aureooms/js-collections-counter/src/basecounter.js~basecounter",
+    "@collection-abstraction/counter/src/basecounter.js~basecounter",
     "function/index.html#static-function-basecounter",
-    "<span>basecounter</span> <span class=\"search-result-import-path\">@aureooms/js-collections-counter/src/basecounter.js</span>",
+    "<span>basecounter</span> <span class=\"search-result-import-path\">@collection-abstraction/counter/src/basecounter.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-collections-counter/src/counter.js~counter",
+    "@collection-abstraction/counter/src/counter.js~counter",
     "variable/index.html#static-variable-counter",
-    "<span>counter</span> <span class=\"search-result-import-path\">@aureooms/js-collections-counter/src/counter.js</span>",
+    "<span>counter</span> <span class=\"search-result-import-path\">@collection-abstraction/counter/src/counter.js</span>",
     "variable"
   ],
   [
-    "@aureooms/js-collections-counter/src/counts.js~counts",
+    "@collection-abstraction/counter/src/counts.js~counts",
     "variable/index.html#static-variable-counts",
-    "<span>counts</span> <span class=\"search-result-import-path\">@aureooms/js-collections-counter/src/counts.js</span>",
+    "<span>counts</span> <span class=\"search-result-import-path\">@collection-abstraction/counter/src/counts.js</span>",
     "variable"
   ],
   [

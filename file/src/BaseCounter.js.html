@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
-  <title data-ice="title">src/BaseCounter.js | @aureooms/js-collections-counter</title>
+  <title data-ice="title">src/BaseCounter.js | @collection-abstraction/counter</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Python&apos;s counter data structure for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@aureooms/js-collections-counter"><meta property="twitter:description" content="Python&apos;s counter data structure for JavaScript"></head>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Python&apos;s counter data structure for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@collection-abstraction/counter"><meta property="twitter:description" content="Python&apos;s counter data structure for JavaScript"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/aureooms/js-collections-counter.git"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/collection-abstraction/counter"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -39,85 +39,64 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/BaseCounter.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { NotImplementedError } from &apos;@aureooms/js-error&apos; ;
-import { nlargest } from &apos;@aureooms/js-heapq&apos; ;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {NotImplementedError} from &apos;@failure-abstraction/error&apos;;
+import {nlargest} from &apos;@data-structure/heapq&apos;;
 
-import counts from &apos;./counts&apos; ;
+import counts from &apos;./counts.js&apos;;
 
-export default function BaseCounter ( Map , Dict ) {
+export default function BaseCounter(Map, Dict) {
+	const Counter = function (iterable) {
+		this.container = new Map();
 
-	const Counter = function ( iterable ) {
+		if (iterable !== null) this.update(iterable);
+	};
 
-		this.container = new Map( ) ;
+	Counter.prototype = new Dict();
 
-		if ( iterable !== null ) this.update( iterable ) ;
+	// eslint-disable-next-line no-unused-vars
+	Counter.fromkeys = function (seq, value = null) {
+		throw new NotImplementedError(
+			&apos;Counter.fromkeys() is undefined.  Use Counter(iterable) instead.&apos;,
+		);
+	};
 
-	} ;
+	Counter.prototype.get = function (key) {
+		if (this.has(key)) return this.container.get(key);
 
-	Counter.prototype = new Dict( ) ;
+		return 0;
+	};
 
-	Counter.fromkeys = function ( seq , value = null ) {
-
-		throw new NotImplementedError( &quot;Counter.fromkeys() is undefined.  Use Counter(iterable) instead.&quot; ) ;
-
-	} ;
-
-	Counter.prototype.get = function ( key ) {
-
-		if ( this.has( key ) ) return this.container.get( key ) ;
-
-		return 0 ;
-
-	} ;
-
-	Counter.prototype.elements = function* ( ) {
-
-		for ( let [ key , count ] of this ) {
-
-			while ( count --&gt; 0 ) yield key ;
-
+	Counter.prototype.elements = function* () {
+		for (let [key, count] of this) {
+			while (count-- &gt; 0) yield key;
 		}
+	};
 
-	} ;
+	Counter.prototype.increment = function (key, amount = 1) {
+		this.set(key, this.get(key) + amount);
+	};
 
-	Counter.prototype.increment = function ( key , amount = 1 ) {
+	Counter.prototype.decrement = function (key, amount = 1) {
+		this.increment(key, -amount);
+	};
 
-		this.set( key , this.get( key ) + amount ) ;
+	Counter.prototype.update = function (iterable) {
+		for (const key of iterable) this.increment(key);
+	};
 
-	} ;
+	Counter.prototype.add = function (other) {
+		for (const [key, count] of other) this.increment(key, count);
+	};
 
-	Counter.prototype.decrement = function ( key , amount = 1 ) {
+	Counter.prototype.subtract = function (other) {
+		for (const [key, count] of other) this.decrement(key, count);
+	};
 
-		this.increment( key , -amount ) ;
+	Counter.prototype.most_common = function (n = this.len()) {
+		return nlargest(counts, n, this);
+	};
 
-	} ;
-
-	Counter.prototype.update = function ( iterable ) {
-
-		for ( let key of iterable ) this.increment( key ) ;
-
-	} ;
-
-	Counter.prototype.add = function ( other ) {
-
-		for ( let [ key , count ] of other ) this.increment( key , count ) ;
-
-	} ;
-
-	Counter.prototype.subtract = function ( other ) {
-
-		for ( let [ key , count ] of other ) this.decrement( key , count ) ;
-
-	} ;
-
-	Counter.prototype.most_common = function ( n = this.len( ) ) {
-
-		return nlargest( counts , n , this ) ;
-
-	} ;
-
-	return Counter ;
-
+	return Counter;
 }
 </code></pre>
 
