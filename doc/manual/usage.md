@@ -9,7 +9,7 @@ import '@babel/polyfill' ;
 
 Then
 ```js
-const number = require( '@aureooms/js-collections-counter' ) ;
+const number = require( '@collection-abstraction/counter' ) ;
 // or
-import number from '@aureooms/js-collections-counter' ;
+import number from '@collection-abstraction/counter' ;
 ```

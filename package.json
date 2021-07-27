@@ -1,8 +1,8 @@
 {
-  "name": "@aureooms/js-collections-counter",
+  "name": "@collection-abstraction/counter",
   "description": "Python's counter data structure for JavaScript",
   "version": "5.0.0",
-  "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
+  "author": "make-github-pseudonymous-again",
   "ava": {
     "require": [
       "@babel/polyfill",
@@ -24,34 +24,35 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-collections-counter/issues"
+    "url": "https://github.com/collection-abstraction/counter/issues"
   },
   "dependencies": {
-    "@aureooms/js-collections-dict": "^4.0.0",
-    "@aureooms/js-compare": "^1.4.5",
-    "@aureooms/js-error": "^4.0.0",
-    "@aureooms/js-heapq": "^3.1.0"
+    "@collection-abstraction/dict": "^5.0.0",
+    "@total-order/primitive": "^1.0.1",
+    "@total-order/key": "^1.0.0",
+    "@failure-abstraction/error": "^6.0.1",
+    "@data-structure/heapq": "^4.0.0"
   },
   "devDependencies": {
-    "@aureooms/js-itertools": "4.1.0",
-    "@babel/cli": "7.12.10",
-    "@babel/core": "7.12.10",
+    "@iterable-iterator/sorted": "1.0.0",
+    "@babel/cli": "7.14.8",
+    "@babel/core": "7.14.8",
     "@babel/polyfill": "7.12.1",
-    "@babel/preset-env": "7.12.11",
-    "@babel/register": "7.12.10",
-    "ava": "3.14.0",
-    "coveralls": "3.1.0",
+    "@babel/preset-env": "7.14.8",
+    "@babel/register": "7.14.5",
+    "ava": "3.15.0",
+    "coveralls": "3.1.1",
     "esdoc": "1.1.0",
     "esdoc-inject-script-plugin": "1.0.0",
     "esdoc-inject-style-plugin": "1.0.0",
     "esdoc-standard-plugin": "1.0.0",
-    "np": "7.0.0",
+    "np": "7.5.0",
     "nyc": "15.1.0"
   },
   "files": [
     "lib"
   ],
-  "homepage": "http://make-github-pseudonymous-again.github.io/js-collections-counter/",
+  "homepage": "http://collection-abstraction.github.io/counter",
   "keywords": [
     "collection",
     "collections",
@@ -63,7 +64,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-collections-counter.git",
+    "url": "https://github.com/collection-abstraction/counter.git",
     "type": "git"
   },
   "scripts": {

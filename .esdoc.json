@@ -13,7 +13,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@aureooms/js-collections-counter"
+          "title": "@collection-abstraction/counter"
         },
         "test": {
           "type": "ava",

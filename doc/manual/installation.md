@@ -5,10 +5,10 @@ or [npm](https://github.com/npm/npm).
 
 ### jspm
 ```terminal
-jspm install npm:@aureooms/js-collections-counter
+jspm install npm:@collection-abstraction/counter
 ```
 
 ### npm
 ```terminal
-npm install @aureooms/js-collections-counter --save
+npm install @collection-abstraction/counter --save
 ```

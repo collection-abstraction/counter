@@ -1,28 +1,28 @@
-[@aureooms/js-collections-counter](https://make-github-pseudonymous-again.github.io/js-collections-counter)
+[@collection-abstraction/counter](https://make-github-pseudonymous-again.github.io/js-collections-counter)
 ==
 
 Python's counter data structure for JavaScript.
 See [docs](https://make-github-pseudonymous-again.github.io/js-collections-counter).
-Parent is [@aureooms/js-collections](https://github.com/make-github-pseudonymous-again/js-collections).
+Parent is [js-collections](https://github.com/make-github-pseudonymous-again/js-collections).
 
 ```js
 counter('abracadabra').get('a'); // 5
 ```
 
-[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-collections-counter.svg)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-collections-counter/main/LICENSE)
-[![Version](https://img.shields.io/npm/v/@aureooms/js-collections-counter.svg)](https://www.npmjs.org/package/@aureooms/js-collections-counter)
-[![Build](https://img.shields.io/travis/make-github-pseudonymous-again/js-collections-counter/main.svg)](https://travis-ci.org/make-github-pseudonymous-again/js-collections-counter/branches)
-[![Dependencies](https://img.shields.io/david/make-github-pseudonymous-again/js-collections-counter.svg)](https://david-dm.org/make-github-pseudonymous-again/js-collections-counter)
-[![Dev dependencies](https://img.shields.io/david/dev/make-github-pseudonymous-again/js-collections-counter.svg)](https://david-dm.org/make-github-pseudonymous-again/js-collections-counter?type=dev)
-[![GitHub issues](https://img.shields.io/github/issues/make-github-pseudonymous-again/js-collections-counter.svg)](https://github.com/make-github-pseudonymous-again/js-collections-counter/issues)
-[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-collections-counter.svg)](https://www.npmjs.org/package/@aureooms/js-collections-counter)
+[![License](https://img.shields.io/github/license/collection-abstraction/counter.svg)](https://raw.githubusercontent.com/collection-abstraction/counter/main/LICENSE)
+[![Version](https://img.shields.io/npm/v/@collection-abstraction/counter.svg)](https://www.npmjs.org/package/@collection-abstraction/counter)
+[![Build](https://img.shields.io/travis/collection-abstraction/counter/main.svg)](https://travis-ci.org/collection-abstraction/counter/branches)
+[![Dependencies](https://img.shields.io/david/collection-abstraction/counter.svg)](https://david-dm.org/collection-abstraction/counter)
+[![Dev dependencies](https://img.shields.io/david/dev/collection-abstraction/counter.svg)](https://david-dm.org/collection-abstraction/counter?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/collection-abstraction/counter.svg)](https://github.com/collection-abstraction/counter/issues)
+[![Downloads](https://img.shields.io/npm/dm/@collection-abstraction/counter.svg)](https://www.npmjs.org/package/@collection-abstraction/counter)
 
-[![Code issues](https://img.shields.io/codeclimate/issues/make-github-pseudonymous-again/js-collections-counter.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-collections-counter/issues)
-[![Code maintainability](https://img.shields.io/codeclimate/maintainability/make-github-pseudonymous-again/js-collections-counter.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-collections-counter/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/make-github-pseudonymous-again/js-collections-counter/main.svg)](https://codecov.io/gh/make-github-pseudonymous-again/js-collections-counter)
-[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/make-github-pseudonymous-again/js-collections-counter.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-collections-counter/trends/technical_debt)
-[![Documentation](http://make-github-pseudonymous-again.github.io/js-collections-counter//badge.svg)](http://make-github-pseudonymous-again.github.io/js-collections-counter//source.html)
-[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-collections-counter)](https://bundlephobia.com/result?p=@aureooms/js-collections-counter)
+[![Code issues](https://img.shields.io/codeclimate/issues/collection-abstraction/counter.svg)](https://codeclimate.com/github/collection-abstraction/counter/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/collection-abstraction/counter.svg)](https://codeclimate.com/github/collection-abstraction/counter/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/collection-abstraction/counter/main.svg)](https://codecov.io/gh/collection-abstraction/counter)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/collection-abstraction/counter.svg)](https://codeclimate.com/github/collection-abstraction/counter/trends/technical_debt)
+[![Documentation](http://collection-abstraction.github.io/counter/badge.svg)](http://collection-abstraction.github.io/counter/source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@collection-abstraction/counter)](https://bundlephobia.com/result?p=@collection-abstraction/counter)
 
 ## References
 

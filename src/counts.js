@@ -1,5 +1,6 @@
-import { increasing , attr } from '@aureooms/js-compare' ;
+import {increasing} from '@total-order/primitive';
+import {prop} from '@total-order/key';
 
-const counts = attr( increasing , 1 ) ;
+const counts = prop( increasing , 1 ) ;
 
 export default counts ;
