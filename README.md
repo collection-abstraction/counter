@@ -21,7 +21,7 @@ counter('abracadabra').get('a'); // 5
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/collection-abstraction/counter.svg)](https://codeclimate.com/github/collection-abstraction/counter/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/collection-abstraction/counter/main.svg)](https://codecov.io/gh/collection-abstraction/counter)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/collection-abstraction/counter.svg)](https://codeclimate.com/github/collection-abstraction/counter/trends/technical_debt)
-[![Documentation](http://collection-abstraction.github.io/counter/badge.svg)](http://collection-abstraction.github.io/counter/source.html)
+[![Documentation](https://collection-abstraction.github.io/counter/badge.svg)](https://collection-abstraction.github.io/counter/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@collection-abstraction/counter)](https://bundlephobia.com/result?p=@collection-abstraction/counter)
 
 ## References
