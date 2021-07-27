@@ -11,7 +11,7 @@ counter('abracadabra').get('a'); // 5
 
 [![License](https://img.shields.io/github/license/collection-abstraction/counter.svg)](https://raw.githubusercontent.com/collection-abstraction/counter/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@collection-abstraction/counter.svg)](https://www.npmjs.org/package/@collection-abstraction/counter)
-[![Build](https://img.shields.io/travis/collection-abstraction/counter/main.svg)](https://travis-ci.com/collection-abstraction/counter/branches)
+[![Tests](https://img.shields.io/github/workflow/status/collection-abstraction/counter/ci:test?event=push&label=tests)](https://github.com/collection-abstraction/counter/actions/workflows/ci:test.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/david/collection-abstraction/counter.svg)](https://david-dm.org/collection-abstraction/counter)
 [![Dev dependencies](https://img.shields.io/david/dev/collection-abstraction/counter.svg)](https://david-dm.org/collection-abstraction/counter?type=dev)
 [![GitHub issues](https://img.shields.io/github/issues/collection-abstraction/counter.svg)](https://github.com/collection-abstraction/counter/issues)
