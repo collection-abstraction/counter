@@ -1,7 +1,7 @@
 import { NotImplementedError } from '@failure-abstraction/error' ;
 import { nlargest } from '@data-structure/heapq' ;
 
-import counts from './counts' ;
+import counts from './counts.js' ;
 
 export default function BaseCounter ( Map , Dict ) {
 

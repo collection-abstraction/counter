@@ -1,8 +1,8 @@
-import BaseCounter from './BaseCounter' ;
-import basecounter from './basecounter' ;
-import Counter from './Counter' ;
-import counter from './counter' ;
-import counts from './counts' ;
+import BaseCounter from './BaseCounter.js' ;
+import basecounter from './basecounter.js' ;
+import Counter from './Counter.js' ;
+import counter from './counter.js' ;
+import counts from './counts.js' ;
 
 export default counter ;
 

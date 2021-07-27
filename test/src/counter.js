@@ -5,7 +5,7 @@ import { increasing } from '@total-order/primitive' ;
 
 import { NotImplementedError } from '@failure-abstraction/error' ;
 
-import counter from '../../src' ;
+import counter from '../../src/index.js' ;
 
 test( "counter" , t => {
 
