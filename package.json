@@ -2,7 +2,62 @@
   "name": "@collection-abstraction/counter",
   "description": "Python's counter data structure for JavaScript",
   "version": "5.0.0",
+  "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
+  "homepage": "https://collection-abstraction.github.io/counter",
+  "repository": {
+    "url": "https://github.com/collection-abstraction/counter",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/collection-abstraction/counter/issues"
+  },
+  "keywords": [
+    "collection",
+    "collections",
+    "count",
+    "counter",
+    "javascript",
+    "js"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "esdoc": "esdoc",
+    "lint-config": "fixpack --dryRun",
+    "lint-config-and-fix": "fixpack || fixpack",
+    "prepare": "npm run build",
+    "release": "np",
+    "test": "ava"
+  },
+  "dependencies": {
+    "@collection-abstraction/dict": "^5.0.0",
+    "@data-structure/heapq": "^4.0.0",
+    "@failure-abstraction/error": "^6.0.1",
+    "@total-order/key": "^1.0.0",
+    "@total-order/primitive": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.14.8",
+    "@babel/core": "7.14.8",
+    "@babel/polyfill": "7.12.1",
+    "@babel/preset-env": "7.14.8",
+    "@babel/register": "7.14.5",
+    "@iterable-iterator/sorted": "1.0.0",
+    "ava": "3.15.0",
+    "coveralls": "3.1.1",
+    "esdoc": "1.1.0",
+    "esdoc-inject-script-plugin": "1.0.0",
+    "esdoc-inject-style-plugin": "1.0.0",
+    "esdoc-standard-plugin": "1.0.0",
+    "fixpack": "4.0.0",
+    "np": "7.5.0",
+    "nyc": "15.1.0"
+  },
   "ava": {
     "require": [
       "@babel/polyfill",
@@ -22,60 +77,5 @@
         "sourceMaps": "inline"
       }
     }
-  },
-  "bugs": {
-    "url": "https://github.com/collection-abstraction/counter/issues"
-  },
-  "dependencies": {
-    "@collection-abstraction/dict": "^5.0.0",
-    "@total-order/primitive": "^1.0.1",
-    "@total-order/key": "^1.0.0",
-    "@failure-abstraction/error": "^6.0.1",
-    "@data-structure/heapq": "^4.0.0"
-  },
-  "devDependencies": {
-    "@iterable-iterator/sorted": "1.0.0",
-    "@babel/cli": "7.14.8",
-    "@babel/core": "7.14.8",
-    "@babel/polyfill": "7.12.1",
-    "@babel/preset-env": "7.14.8",
-    "@babel/register": "7.14.5",
-    "ava": "3.15.0",
-    "coveralls": "3.1.1",
-    "esdoc": "1.1.0",
-    "esdoc-inject-script-plugin": "1.0.0",
-    "esdoc-inject-style-plugin": "1.0.0",
-    "esdoc-standard-plugin": "1.0.0",
-    "np": "7.5.0",
-    "nyc": "15.1.0",
-    "fixpack": "4.0.0"
-  },
-  "files": [
-    "lib"
-  ],
-  "homepage": "https://collection-abstraction.github.io/counter",
-  "keywords": [
-    "collection",
-    "collections",
-    "count",
-    "counter",
-    "javascript",
-    "js"
-  ],
-  "license": "AGPL-3.0",
-  "main": "lib/index.js",
-  "repository": {
-    "url": "https://github.com/collection-abstraction/counter",
-    "type": "git"
-  },
-  "scripts": {
-    "build": "rm -rf lib && babel src -d lib",
-    "cover": "nyc --reporter=lcov npm test",
-    "esdoc": "esdoc",
-    "prepare": "npm run build",
-    "release": "np",
-    "test": "ava",
-    "lint-config-and-fix": "fixpack || fixpack",
-    "lint-config": "fixpack --dryRun"
   }
 }
