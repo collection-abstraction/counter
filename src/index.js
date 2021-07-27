@@ -1,9 +1,5 @@
-import BaseCounter from './BaseCounter.js';
-import basecounter from './basecounter.js';
-import Counter from './Counter.js';
-import counter from './counter.js';
-import counts from './counts.js';
-
-export default counter;
-
-export {counter, Counter, basecounter, BaseCounter, counts};
+export {default as BaseCounter} from './BaseCounter.js';
+export {default as Counter} from './Counter.js';
+export {default as basecounter} from './basecounter.js';
+export {default as counter} from './counter.js';
+export {default as counts} from './counts.js';
