@@ -1,7 +1,8 @@
-import { Dict } from '@collection-abstraction/dict' ;
+import {Dict} from '@collection-abstraction/dict';
 
-import BaseCounter from './BaseCounter.js' ;
+import BaseCounter from './BaseCounter.js';
 
-const Counter = BaseCounter( Map , Dict ) ;
+// eslint-disable-next-line new-cap
+const Counter = BaseCounter(Map, Dict);
 
-export default Counter ;
+export default Counter;

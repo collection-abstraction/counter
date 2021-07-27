@@ -1,14 +1,9 @@
+export default function basecounter(Counter) {
+	const counter = function (iterable = null) {
+		return new Counter(iterable);
+	};
 
-export default function basecounter ( Counter ) {
+	counter.fromkeys = Counter.fromkeys;
 
-	const counter = function ( iterable = null ) {
-
-		return new Counter( iterable ) ;
-
-	} ;
-
-	counter.fromkeys = Counter.fromkeys ;
-
-	return counter ;
-
-} ;
+	return counter;
+}

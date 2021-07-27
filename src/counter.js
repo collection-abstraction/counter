@@ -1,7 +1,7 @@
-import Counter from './Counter.js' ;
+import Counter from './Counter.js';
 
-import basecounter from './basecounter.js' ;
+import basecounter from './basecounter.js';
 
-const counter = basecounter( Counter ) ;
+const counter = basecounter(Counter);
 
-export default counter ;
+export default counter;
