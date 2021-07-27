@@ -1,3 +1,4 @@
+:100:
 [@collection-abstraction/counter](https://make-github-pseudonymous-again.github.io/js-collections-counter)
 ==
 
@@ -6,6 +7,7 @@ See [docs](https://make-github-pseudonymous-again.github.io/js-collections-count
 Parent is [js-collections](https://github.com/make-github-pseudonymous-again/js-collections).
 
 ```js
+import {counter} from '@collection-abstraction/counter';
 counter('abracadabra').get('a'); // 5
 ```
 
@@ -24,6 +26,6 @@ counter('abracadabra').get('a'); // 5
 [![Documentation](https://collection-abstraction.github.io/counter/badge.svg)](https://collection-abstraction.github.io/counter/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@collection-abstraction/counter)](https://bundlephobia.com/result?p=@collection-abstraction/counter)
 
-## References
+## :scroll: References
 
   - [Python's collections library](https://docs.python.org/3.6/library/collections.html#collections.counter)
