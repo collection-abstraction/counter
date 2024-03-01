@@ -1,5 +1,5 @@
-import {NotImplementedError} from '@failure-abstraction/error';
 import {nlargest} from '@data-structure/heapq';
+import {NotImplementedError} from '@failure-abstraction/error';
 
 import counts from './counts.js';
 
