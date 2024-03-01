@@ -5,7 +5,7 @@ import {increasing} from '@total-order/primitive';
 
 import {NotImplementedError} from '@failure-abstraction/error';
 
-import {counter} from '../../src/index.js';
+import {counter} from '#module';
 
 test('counter', (t) => {
 	let c = counter();
