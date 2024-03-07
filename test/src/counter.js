@@ -1,8 +1,9 @@
 import test from 'ava';
 
-import {NotImplementedError} from '@failure-abstraction/error';
 import {sorted} from '@iterable-iterator/sorted';
 import {increasing} from '@total-order/primitive';
+
+import {NotImplementedError} from './_fixtures.js';
 
 import {counter} from '#module';
 
